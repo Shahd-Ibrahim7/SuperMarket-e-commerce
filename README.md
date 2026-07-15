@@ -455,35 +455,18 @@ G --> H(Order Tracking)
 ```mermaid
 graph TD
 
-User --> Routes
+A[User] --> B[Routes]
 
-Routes --> Controllers
+B --> C[Controllers]
 
-Controllers --> Models
+C --> D[Models]
 
-Models --> Database
+D --> E[(MySQL Database)]
 
-Controllers --> Blade Views
+C --> F[Blade Views]
 
-Blade Views --> Browser
+F --> G[Browser]
 ```
-
----
-
-# 📈 Development Status
-
-| Module | Status |
-|---------|--------|
-| Authentication | 🟢 Completed |
-| Categories | 🟢 Completed |
-| Brands | 🟢 Completed |
-| Products | 🟢 Completed |
-| Shopping Cart | 🟢 Completed |
-| Wishlist | 🟢 Completed |
-| Orders | 🟢 Completed |
-| Admin Dashboard | 🟢 Completed |
-| Checkout | 🟡 In Progress |
-| Payment Gateway | 🔴 Planned |
 
 ---
 
@@ -535,20 +518,6 @@ Blade Views --> Browser
 
 ---
 
-# 🔐 Security Features
-
-- ✅ Authentication System
-- ✅ Authorization & Roles
-- ✅ CSRF Protection
-- ✅ Middleware Protection
-- ✅ Password Hashing
-- ✅ Secure Sessions
-- ✅ Request Validation
-- ✅ Eloquent ORM
-- ✅ Protected Routes
-
----
-
 # 📂 Development Principles
 
 - Clean Architecture
@@ -563,61 +532,11 @@ Blade Views --> Browser
 
 ---
 
-# 🤝 Contributing
-
-Contributions are always welcome.
-
-1. Fork this repository
-
-2. Create your feature branch
-
-```bash
-git checkout -b feature/YourFeature
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push to GitHub
-
-```bash
-git push origin feature/YourFeature
-```
-
-5. Open a Pull Request
-
----
-
 # 📌 Repository
 
 **GitHub Repository**
 
 https://github.com/Shahd-Ibrahim7/SuperMarket-e-commerce
-
----
-
-# 📊 GitHub Statistics
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Shahd-Ibrahim7&show_icons=true&theme=transparent"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shahd-Ibrahim7&layout=compact&theme=transparent"/>
-
-</div>
-
----
-
-# 🏆 GitHub Trophy
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Shahd-Ibrahim7&theme=flat&no-frame=true&margin-w=12"/>
-
-</div>
 
 ---
 
