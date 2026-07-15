@@ -52,18 +52,6 @@ It includes both customer and administrator modules, allowing complete managemen
 
 ---
 
-# 🚀 Quick Navigation
-
-- 🌟 About
-- ✨ Features
-- 🛠 Tech Stack
-- 📂 Project Structure
-- ⚙ Installation
-- 📈 Roadmap
-- 👨‍💻 Developer
-
----
-
 # ✨ Main Features
 
 <div align="center">
@@ -256,30 +244,6 @@ Inventory
 
 ---
 
-# 💚 Why This Project?
-
-✔ Modern UI
-
-✔ Clean Laravel Architecture
-
-✔ Secure Authentication
-
-✔ Responsive Layout
-
-✔ Easy Navigation
-
-✔ Scalable Structure
-
-✔ Optimized Database Design
-
-✔ RESTful Routing
-
-✔ MVC Pattern
-
-✔ Reusable Components
-
----
-
 # 🛠 Tech Stack
 
 <div align="center">
@@ -300,52 +264,6 @@ Inventory
 | JavaScript | Client-side |
 | Git | Version Control |
 | GitHub | Source Code Hosting |
-
----
-
-# 📂 Project Structure
-
-```text
-SuperMarket
-│
-├── app
-├── bootstrap
-├── config
-├── database
-├── public
-├── resources
-│   ├── css
-│   ├── js
-│   ├── views
-│
-├── routes
-├── storage
-├── tests
-├── vendor
-└── .env
-```
-
----
-
-# 🏗 Architecture
-
-```mermaid
-graph TD;
-
-Customer --> Routes
-
-Admin --> Routes
-
-Routes --> Controllers
-
-Controllers --> Models
-
-Models --> Database
-
-Controllers --> Blade
-
-Blade --> Browser
-```
 
 ---
 
@@ -468,27 +386,6 @@ C --> F[Blade Views]
 F --> G[Browser]
 ```
 
----
-
-# 🎯 Project Objectives
-
-✔ Professional Laravel Architecture
-
-✔ Responsive User Interface
-
-✔ MVC Design Pattern
-
-✔ Secure Authentication
-
-✔ Scalable Database Design
-
-✔ Clean & Maintainable Code
-
-✔ Reusable Components
-
-✔ Optimized Performance
-
-✔ Easy Future Expansion
 
 ---
 
