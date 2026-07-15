@@ -267,85 +267,6 @@ Inventory
 
 ---
 
-# 🔒 Security
-
-- CSRF Protection
-- Password Hashing
-- Authentication
-- Authorization
-- Request Validation
-- Middleware Protection
-- Secure Sessions
-
----
-
-<div align="center">
-
-## ⭐ Building a Real-World Laravel Shopping Experience
-
-</div>
----
-
-# ⚙️ Installation Guide
-
-Clone the repository
-
-```bash
-git clone https://github.com/Shahd-Ibrahim7/SuperMarket-e-commerce.git
-```
-
-Navigate to the project directory
-
-```bash
-cd SuperMarket-e-commerce
-```
-
-Install project dependencies
-
-```bash
-composer install
-```
-
-Copy the environment configuration
-
-```bash
-cp .env.example .env
-```
-
-Generate the application key
-
-```bash
-php artisan key:generate
-```
-
-Configure your database credentials inside the **.env** file.
-
-Run database migrations
-
-```bash
-php artisan migrate
-```
-
-(Optional) Seed the database
-
-```bash
-php artisan db:seed
-```
-
-Start the development server
-
-```bash
-php artisan serve
-```
-
-Open your browser
-
-```
-http://127.0.0.1:8000
-```
-
----
-
 # 📊 System Workflow
 
 ```mermaid
@@ -429,11 +350,83 @@ F --> G[Browser]
 
 ---
 
+# 🔒 Security
+
+- CSRF Protection
+- Password Hashing
+- Authentication
+- Authorization
+- Request Validation
+- Middleware Protection
+- Secure Sessions
+
+---
+
 # 📌 Repository
 
 **GitHub Repository**
 
 https://github.com/Shahd-Ibrahim7/SuperMarket-e-commerce
+
+---
+
+# ⚙️ Installation Guide
+
+Clone the repository
+
+```bash
+git clone https://github.com/Shahd-Ibrahim7/SuperMarket-e-commerce.git
+```
+
+Navigate to the project directory
+
+```bash
+cd SuperMarket-e-commerce
+```
+
+Install project dependencies
+
+```bash
+composer install
+```
+
+Copy the environment configuration
+
+```bash
+cp .env.example .env
+```
+
+Generate the application key
+
+```bash
+php artisan key:generate
+```
+
+Configure your database credentials inside the **.env** file.
+
+Run database migrations
+
+```bash
+php artisan migrate
+```
+
+(Optional) Seed the database
+
+```bash
+php artisan db:seed
+```
+
+Start the development server
+
+```bash
+php artisan serve
+```
+
+Open your browser
+
+```
+http://127.0.0.1:8000
+```
 
 ---
 
